@@ -216,11 +216,15 @@ a:hover {
         flex: 1 0 100%; /* Make blogs take full width on mobile */
         margin-left: 0;
         max-width: 100%; /* Ensure the container takes full width */
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center blog posts */
     }
 
     .blog {
-        width: 100%; /* Each blog takes full width */
+        width: 90%; /* Make each blog post slightly smaller than the container */
         margin-bottom: 15px;
+        text-align: center; /* Center text inside each blog post */
     }
 
     /* Footer: Ensure the footer always stays at the bottom */
